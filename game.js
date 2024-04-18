@@ -10,9 +10,39 @@ let points = {
     computer: 0
 }
 function playRound(playerChoice, computerChoice){
-    console.log(playerChoice + " : " + computerChoice)
+    console.log(playerChoice + " : " + computerChoice);
     if(playerChoice === computerChoice){
         console.log("It's a tie!");
+    }
+    else if (playerChoice === "rock"){
+        if(computerChoice === "paper"){
+            console.log("Paper wins");
+            points.computer++;
+        }
+        else{
+            console.log("Rock wins");
+            points.player++;
+        }
+    }
+    else if(computerChoice === "rock"){
+        if(playerChoice === "paper"){
+            console.log("Paper wins");
+            points.player++;
+        }
+        else{
+            console.log("Rock wins");
+            points.computer++;
+        }
+    }
+    else{
+        if(playerChoice === "scissors"){
+            console.log("Scissors win");
+            points.player++;
+        }
+        else {
+            console.log("Scissors wins");
+            points.computer++;
+        }
     }
 }
 
@@ -25,8 +55,11 @@ function playGame(){
     if(points.player > points.computer){
         console.log("You win!");
     }
-    else{
+    else if(points.player < points.computer){
         console.log("You lose!");
+    }
+    else {
+        console.log("Its a Tie!!")
     }
 }
 
