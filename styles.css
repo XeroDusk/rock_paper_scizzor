@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(48, 228, 186);
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Header */
+
+header .head {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+    margin: 0;
+    padding: 2px;
+    padding-right:8%;
+}
+header .img {
+    border-radius: 5px;
+}
+
+header .heading {
+    font-family: "personality demo";
+    font-size: 70px;
+    flex-shrink: 0;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;   
+}
+
+/* Main */
+
+main {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    padding: 0;
+    gap:40px;
+    width:100%;
+}
+
+main .taunt {
+    font-family: "pigment demo";
+    color: aliceblue;
+    text-align: center;
+    font-size: 40px;
+}
+
+main .game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    
+}
+
+main .game .text {
+    font-family: "pigment demo";
+    font-size: 40px;
+    color: aliceblue;
+}
+
+main .game .choices {
+    display: flex;
+    width: 100%;
+    justify-content:center;
+    gap: 50px;
+}
+
+main .game .choices img {
+    border-radius: 10px ;
+    padding: 5px;
+    transition: transform .2s;
+}
+
+main .game .choices img:hover {
+    transform: scale(1.5);
+}
+
+main .game .result {
+    display: flex;
+    width: 100%;
+}
+
+/* Footer */
