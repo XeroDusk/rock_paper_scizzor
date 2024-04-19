@@ -1,12 +1,20 @@
 @font-face {
-    font-family: "personality demo";
-    src: url("fonts/personality.otf");
-}
-@font-face {
-    font-family: "pigment demo";
-    src: url("fonts/pigment.otf");
+    font-family: 'pigment_demoregular';
+    src: url('pigment_demo-webfont.woff2') format('woff2'),
+         url('pigment_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
+@font-face {
+    font-family: 'personality_demoregular';
+    src: url('personality_demo-webfont.woff2') format('woff2'),
+         url('personality_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 body {
     background-color: rgb(48, 228, 186);
     display:flex;
@@ -31,7 +39,7 @@ header .img {
 }
 
 header .heading {
-    font-family: "personality demo";
+    font-family: "personality_demoregular";
     font-size: 70px;
     flex-shrink: 0;
     flex-grow: 1;
@@ -52,7 +60,7 @@ main {
 }
 
 main .taunt {
-    font-family: "pigment demo";
+    font-family: "personality_demoregular";
     color: aliceblue;
     text-align: center;
     font-size: 40px;
@@ -68,7 +76,7 @@ main .game {
 }
 
 main .game .text {
-    font-family: "pigment demo";
+    font-family: "personality_demoregular";
     font-size: 40px;
     color: aliceblue;
 }
@@ -94,7 +102,7 @@ main .result {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: "pigment demo";
+    font-family: "personality_demoregular";
     color: aliceblue;
     font-size: 40px;
     gap: 40px;
