@@ -35,7 +35,7 @@ function playGame(e){
         const again = document.createElement("a");
         again.setAttribute("href", "index.html");
         again.innerHTML = "Play Again?";
-        again.setAttribute("style", "font-family: 'pigment demo';color: aliceblue;font-size: 40px;border:solid white 2px;; text-decoration:none; padding: 5px 60px");
+        again.setAttribute("style", "font-family: 'pigment_demoregular';color: aliceblue;font-size: 40px;border:solid white 2px;; text-decoration:none; padding: 5px 60px");
         outcome.appendChild(again);
     }
 }
