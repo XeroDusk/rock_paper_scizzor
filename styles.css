@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'pigment_demoregular';
-    src: url('../font/pigment_demo-webfont.woff2') format('woff2'),
-         url('../font/pigment_demo-webfont.woff') format('woff');
+    src: url('../../font/pigment_demo-webfont.woff2') format('woff2'),
+         url('../../font/pigment_demo-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: 'personality_demoregular';
-    src: url('../font/personality_demo-webfont.woff2') format('woff2'),
-         url('../font/personality_demo-webfont.woff') format('woff');
+    src: url('../../font/personality_demo-webfont.woff2') format('woff2'),
+         url('../../font/personality_demo-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
