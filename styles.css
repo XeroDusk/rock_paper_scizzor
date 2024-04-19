@@ -81,9 +81,27 @@ main .game .choices img:hover {
     transform: scale(1.5);
 }
 
-main .game .result {
+main .result {
     display: flex;
-    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    font-family: "pigment demo";
+    color: aliceblue;
+    font-size: 40px;
+    gap: 40px;
+    text-align: center;
+}
+main .result .current {
+    height: 50px;
+    padding-bottom: 20px;
+}
+
+main .result .score {
+    height: 50px;
+}
+
+main .result .outcome {
+    height: 50px;
 }
 
 /* Footer */
