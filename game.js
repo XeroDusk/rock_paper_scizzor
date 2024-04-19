@@ -12,7 +12,7 @@ const outcome = document.querySelector(".outcome");
 let html;
 let score;
 let res;
-function getPlayerChoice(e){
+function playGame(e){
     if(points.player < 5 && points.computer < 5){
         let pC = e.getAttribute("id");
         let cC = getComputerChoice();
