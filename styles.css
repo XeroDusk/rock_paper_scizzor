@@ -1,3 +1,12 @@
+@font-face {
+    font-family: personality demo;
+    src: url("../fonts/personality DEMO.otf");
+}
+@font-face {
+    font-family: pigment demo;
+    src: url("../fonts/pigment DEMO.otf");
+}
+
 body {
     background-color: rgb(48, 228, 186);
     display:flex;
